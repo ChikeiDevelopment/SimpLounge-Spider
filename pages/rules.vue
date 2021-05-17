@@ -1,12 +1,12 @@
 <template>
-    <div class="about-page">
-        <h1>About Page</h1>
+    <div class="page-wrapper">
+        das
     </div>
 </template>
 
 <script>
 export default {
-    
+
 }
 </script>
 

@@ -3,11 +3,18 @@
       <div class="title">My Website</div>
       <nav>
           <nuxt-link to="/">home</nuxt-link>
-          <nuxt-link to="/about">About</nuxt-link>
 		  <nuxt-link to="/blogs">Blogs</nuxt-link>
+		  <nuxt-link to="/rules">Rules</nuxt-link>
       </nav>
   </header>
 </template>
+
+<script>
+export default {
+	tansition: 'page'
+	
+}
+</script>
 
 <style>
 header {

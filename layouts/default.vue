@@ -2,8 +2,15 @@
   <div>
     <Header />
     <Nuxt />
+    <Footer />
   </div>
 </template>
+
+<script>
+export default {
+  transiton: 'page'
+}
+</script>
 
 <style>
 * {
@@ -12,10 +19,6 @@
   box-sizing: border-box;
 
   font-family: sans-serif;
-}
-
-body {
-  background-color: #EEE;
 }
 
 a {
